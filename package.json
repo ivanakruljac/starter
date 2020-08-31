@@ -1,0 +1,32 @@
+{
+    "name": "starter",
+    "version": "1.1.1",
+    "description": "Gulp dependencies",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivanakruljac/starter.git"
+    },
+    "author": "Ivana Kruljac | Marktplatz Mittelstand",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.4.7",
+        "browser-sync": "^2.26.7",
+        "cssnano": "^4.1.8",
+        "gulp": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-s3-upload": "^1.7.3",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify": "^3.0.1",
+        "postcss-discard-comments": "^4.0.2",
+        "postcss-normalize-whitespace": "^4.0.2"
+    },
+    "dependencies": {
+        "gulp-sass-lint": "^1.4.0"
+    }
+}

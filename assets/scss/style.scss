@@ -1,0 +1,20 @@
+/*!
+Theme Name: Starter
+Author: Ivana Kruljac
+Author URI: https://ivanakruljac.netlify.app/
+Description: Starter Theme 
+Version: 1.1
+Text Domain: starter
+*/
+// Setup
+@import 'vendor/variables';
+@import 'vendor/normalize';
+@import 'vendor/bootstrap';
+@import 'vendor/breakpoints';
+
+// WP parts
+@import 'header';
+@import 'single';
+@import 'page';
+@import 'footer';
+
