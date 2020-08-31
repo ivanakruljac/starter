@@ -12,6 +12,7 @@ Theme name: `starter`
 #### Setup Steps:
 
 ```bash
+# First you have to install WP on your local machine
 # after installing the WP, navigate to WP themes folder:
 $ cd /opt/lampp/htdocs/starter/wp-content/themes
 # and then clone repo(theme):
@@ -29,4 +30,5 @@ $ npm install
 $ cd /opt/lampp/htdocs/starter/wp-content/themes/starter
 # and then run the gulp tasks:
 $ gulp tasks
+# your browser will activate the proxy at http://localhost:2001/starter/
 ```
